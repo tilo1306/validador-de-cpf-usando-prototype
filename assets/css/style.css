@@ -1,0 +1,76 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  
+}
+h2 {
+  position: relative;
+  right: 0;
+}
+#container {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  width: 451px;
+  height: 287px;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: #3b5dd9;
+}
+.imgReceita {
+  margin: 10px 10px 10px 10px;
+  width: 12%;
+  height: 12%;
+  z-index: 1;
+}
+.desc-ministerio {
+  position: relative;
+  width: 500px;
+  margin-top: 0px;
+  padding: 0px;
+  z-index: 3;
+}
+h2 {
+  position: relative;
+  right: 62px;
+}
+h3 {
+  display: flex;
+  width: 250px;
+  height: 10%;
+  flex-direction: column;
+  margin-top: 6.5px;
+  padding: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  z-index: 1;
+}
+h4 {
+  position: relative;
+  top: -10px;
+  width: 100%;
+  margin-top: 0px;
+  padding-top: 0px;
+  z-index: 3;
+}
+input {
+  position: relative;
+  right: 62px;
+  top: -12px;
+}
+.imgMiniterio {
+  left: -119px;
+  margin-top: 17px;
+  padding: 0px;
+  position: relative;
+  z-index: 0;
+  width: 77%;
+  height: 88%;
+}
+#result {
+  position: relative;
+  right: 62px;
+  top: 0px;
+  margin-top: 5px;
+}
